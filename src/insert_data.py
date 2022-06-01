@@ -11,11 +11,11 @@ Notes:
 '''
 
 # URL of your endpoint
-URL = "https://74sl5m7iya.execute-api.us-west-1.amazonaws.com/Dev/test-writekinesis"
+URL = "https://74sl5m7iya.execute-api.us-west-1.amazonaws.com/Dev/test"
 
 
 #read the testfile
-data = pd.read_csv('data/test_data.csv', sep = ',', encoding='ascii')
+data = pd.read_csv('data/test_data.csv', sep = ',')
 
 # write a single row from the testfile into the api
 # export = data.loc[2].to_json()
