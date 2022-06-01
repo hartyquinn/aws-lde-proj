@@ -1,0 +1,7 @@
+version: '3.9'
+services:
+  run:
+    image: "aws-lde-proj"
+    volumes:
+      - .:/app
+    command: python3 src/insert_data.py
